@@ -108,5 +108,6 @@ function getDeck(){
             .then (data => localStorage.setItem('remaining_cards',data.remaining))
             document.querySelector('#reshuffle').classList.toggle('hidden')
             document.querySelector('h3').innerText = 'Press play when you want to start again!';
+            
 
             }
